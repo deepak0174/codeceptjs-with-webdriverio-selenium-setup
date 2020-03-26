@@ -1,5 +1,8 @@
 const { setHeadlessWhen } = require('@codeceptjs/configure');
 
+console.log('test');
+
+
 // turn on headless mode when running with HEADLESS=true environment variable
 // HEADLESS=true npx codecept run
 setHeadlessWhen(process.env.HEADLESS);

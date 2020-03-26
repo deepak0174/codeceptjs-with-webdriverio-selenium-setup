@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "selenium": "selenium-standalone start",
-    "start": "codeceptjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "selenium": "selenium-standalone",
+    "start": "codeceptjs run"
   },
   "keywords": [],
   "author": "",
